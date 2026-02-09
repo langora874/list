@@ -1,0 +1,60 @@
+body{
+font-family: arial ,sans-serif;
+background-color: #f4f4f9;
+margin: 0;
+padding: 20px;
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+.controls{
+display: flex;
+justify-content: space-between;
+margin: 15px 0;
+
+}
+
+input,select,button{
+    padding: 8px;
+    margin: 5px;
+}
+table{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table th , table td{
+border: 1px solid #ddd;
+padding: 10px;
+text-align: left;
+
+}
+table th{
+background-color: #007bff;
+color: white;
+
+}
+.btn{
+padding: 5px 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 14px;
+}
+.btn-borrow{
+background-color: #28a745;
+color: white;
+}
+.btn-return{
+    background-color: #ffc107;
+
+}
+.btn-delete{
+    background-color: #dc3545;
+    color: white;
+}
